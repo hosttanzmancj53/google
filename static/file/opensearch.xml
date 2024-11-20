@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+  <ShortName>Google Play</ShortName>
+  <Description>Search for content on Google Play</Description>
+  <Tags>google play apps movies tv books games</Tags>
+  <Image height="16" type="image/vnd.microsoft.icon" width="16">https://www.gstatic.com/android/market_images/web/favicon_v2.ico</Image>
+  <Url template="https://play.google.com/store/search?q={searchTerms}&amp;utm_source=opensearch"
+       type="text/html"></Url>
+  <Query role="example" searchTerms="chickens"></Query>
+</OpenSearchDescription>
